@@ -1,0 +1,46 @@
+body {
+  background-color: #0000FF;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.meatloaf {
+  background-color: rgb(93, 50, 4);
+  font-family: "Courier New", Lucida, monospace;
+}
+
+.chicken {
+  background-color: hsl(15, 86%, 45%);
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.cheesecake {
+  background-color: lightsalmon;
+  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul ul {
+  list-style: square;
+}
+
+img {
+  height: auto;
+  width: 750px;
+}
