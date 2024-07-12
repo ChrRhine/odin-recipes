@@ -1,6 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 300px;
+  width: auto;
+  padding: 50px;
+  background-color: white;
+  display: flex;
+}
+
+.header img {
+  display: inline;
+  width: 100px;
+  height: 100px;
+}
+
+.image-box {
+  margin-left: 0;
+  height: 104px;
+  width: 312px;
+  border: 2px solid black;
+}
+
+.header-box {
+  height: 104px;
+  width: 400px;
+  padding: 20px 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu-icon {
+  height: 104px;
+  width: 104px;
+  margin-right: 0;
+}
+
+.menu-button {
+  height: 104px;
+  width: 104px;
+}
+
+.recipes-card {
+  width: auto;
+  height: 1000px;
+  padding: 50px;
+}
+
+.recipes-list {
+  display: flex;
+}
+
+.recipe {
+  text-align: center;
+  width: 450px;
+  height: 600px;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+.recipe.meatloaf {
+  margin-left: 0;
+}
+
+.recipe.chicken {
+  margin: 0 auto;
+}
+
+.recipe.cheesecake {
+  margin-right: 0;
+}
+
+.recipe button {
+  padding: 10px;
+}
+
+.recipe img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 20px auto 50px;
+}
+
+.recipe p {
+  font-size: 20px;
+}
+
+.recipe.cheesecake p {
+  font-size: 24px;
+}
+
 body {
-  background-color: #0000FF;
-  color: white;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -13,22 +106,26 @@ h2 {
 }
 
 .meatloaf {
+  color: white;
   background-color: rgb(93, 50, 4);
   font-family: "Courier New", Lucida, monospace;
 }
 
 .chicken {
+  color: white;
   background-color: hsl(15, 86%, 45%);
   font-family: Arial, Verdana, sans-serif;
 }
 
 .cheesecake {
+  color: white;
   background-color: lightsalmon;
   font-family: "Brush Script MT", "Lucida Handwriting", cursive;
 }
 
 a {
-  color: white;
+  color: black;
+  font-size: 36px;
   text-decoration: none;
 }
 
